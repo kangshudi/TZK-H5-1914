@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	overflow-x: hidden;
+}
+ul li{
+	list-style: none;
+}
+div#top{
+	width: 100%;
+	height: 474px;
+	border: 1px solid red;
+}
+div#top .box{
+	width: 1440px;
+	height: 118px;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	position: relative;
+}
+#top .box .list{
+	list-style: none;
+	/*width: 118px;*/
+	height: 78px;
+	/*border: 1px solid black;*/
+	float: left;
+	margin-right: 2px;
+}
+div#top .box .list a{
+	color: #FFFFFF;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+div#top .box .list:nth-child(1){
+	width: 310px;
+	height: 78px;
+	background: url(../images/logo.png);
+	margin-left: 186px;
+	margin-right: 100px;
+}
+div#top .box .list:nth-of-type(2){
+	width: 98px;
+	background: url(../images/nav.png)  left top;
+}
+div#top .box .list:nth-of-type(2):hover{
+	background: url(../images/nav-on.png) left top;
+}
+div#top .box .list:nth-of-type(3){
+	width: 122px;
+	background: url(../images/nav.png)  -100px top;
+}
+div#top .box .list:nth-of-type(3):hover{
+	background: url(../images/nav-on.png) -100px top;
+}
+div#top .box .list:nth-of-type(4){
+	width: 144px;
+	background: url(../images/nav.png)  -222px top;
+}
+div#top .box .list:nth-of-type(4):hover{
+	background: url(../images/nav-on.png) -222px top;
+}
+div#top .box .list:nth-of-type(5){
+	width: 120px;
+	background: url(../images/nav.png)  -366px top;
+}
+div#top .box .list:nth-of-type(5):hover{
+	background: url(../images/nav-on.png) -368px top;
+}
+ul.box2{
+	width: 500px;
+	height: 38px;
+	/*border: 1px solid red;*/
+	display: none;
+} 
+div#top .box .list:hover ul.box2{
+	display: block;
+}
+ul.box2 li.listNote{
+	width: 118px;
+	height: 38px;
+	background: #ff6c00;
+	float: left;
+	font-size: 14px;
+}
+ul.box2 li.listNote:hover{
+	background: #fd903f;
+}
+ul.box2 li a{
+	width: 118px;
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+	text-decoration: none;
+}
+#top .top-Bottom{
+	width: 1440px;
+	height: 38px;
+	border: 1px solid red;
+	position: absolute;
+	bottom: 0;
+	background: #ff6c00;
+	z-index: -1;
+}
+

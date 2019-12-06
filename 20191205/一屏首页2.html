@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+            display: block;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        a{
+            text-decoration: none;
+            color: #334849;
+        }
+
+        #content {
+            width: 100%;
+            height: 100%;
+        }
+
+        #left {
+            width: 21.3%;
+            height: 100%;
+            /* border: 1px solid red; */
+            float: left;
+            background: #ffffff;
+        }
+
+        #right {
+            width: 78.7%;
+            height: 100%;
+            /* border: 1px solid blue; */
+            float: right;
+            /* background: burlywood; */
+        }
+
+        #right img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .nav {
+            width: 100%;
+            height: 91.7%;
+            background: #fefefe;
+            text-align: center;
+        }
+
+        /* .nav h3:after{
+            content: " ";
+            position: relative;
+            width: 55px;
+            height: 44px;
+            
+        } */
+        /* .nav h3 i{
+            width: 55px;
+            height: 44px;
+            display: inline-block;
+            border: 1px solid red;
+            background: url(images/plant_04.png);
+            position: absolute;
+        } */
+        ul.nav-ul li.nav-li{
+            height: 40px;
+            color: #334849;
+            font-size: 15px;
+            margin-bottom: 15px;
+            /* border: 1px solid red; */
+            list-style: none;
+            
+        }
+        .nav-ul .nav-li a{
+            
+            display: inline-block;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            /* border: 1px solid violet; */
+        }
+
+        .nav-ul .nav-li:nth-child(1){
+            margin-top: 50px;
+            margin-bottom: 55px;
+        }
+        .nav-ul .nav-li:nth-of-type(2){
+            margin-right: 25px;
+        }
+
+        .nav-ul .nav-li:hover a{
+            font-weight: bold;
+            border-bottom: 2px solid #123133;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <div id="left">
+            <div class="nav">
+                <ul class="nav-ul">
+                    <li class="nav-li">
+                        <h3>森灵多肉园艺馆</h3>
+                    </li>
+                    <li class="nav-li">
+                        <a href="">首页</a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="">多肉品种</a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="">种植养护</a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="">新品推荐</a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="">多肉盆器</a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="">植料工具</a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="">圆馆简介</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="right">
+            <img src="images/plant_02.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
